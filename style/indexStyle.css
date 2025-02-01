@@ -68,4 +68,8 @@ nav ul li .dropdown li a {
     background-color: #ff8aff;
     color: black;
 }
-
+.menu li:hover>a{
+    background: #555;
+    color: #fff;
+    padding: 10px;
+}
