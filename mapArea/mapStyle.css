@@ -4,6 +4,6 @@ div#kirjeldus{
     padding: 10px;
     position: absolute;
     border: 1px solid #ccc;
-    top: 100px;
-    left: 450px;
+    top: 250px;
+    left: 0;
 }
