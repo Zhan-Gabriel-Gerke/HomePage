@@ -1,0 +1,205 @@
+table#tabel1{ /*html dailis table id = tabel1*/
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse; /* Uhine aaris*/
+}
+#tabel1 td{
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+}
+#tabel1 tr:nth-child(1) td:nth-child(1) {
+    /*1.rida 1.lahter*/
+    background-color: yellow;
+}
+#tabel1 tr:nth-child(1) td:nth-child(2) {
+    /*1.rida 1.lahter*/
+    background-color: red;
+}
+#tabel1 tr:nth-child(2) td:nth-child(1) {
+    /*1.rida 1.lahter*/
+    background-color: blue;
+}
+#tabel1 tr:nth-child(2) td:nth-child(2) {
+    /*1.rida 1.lahter*/
+    background-color: orange;
+}
+/*Table id = 1 */
+/*Table id = 2*/
+table#tabel2{ /*html dailis table id = tabel1*/
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse; /* Uhine aaris*/
+}
+#tabel2 td{
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+}
+/*TABLE 2*/
+/*TABLE 3*/
+table#tabel3{ /*html dailis table id = tabel1*/
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse; /* Uhine aaris*/
+}
+#tabel3 td{
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+}
+/*TABLE 3*/
+table#tabel4{ /*html dailis table id = tabel1*/
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse; /* Uhine aaris*/
+}
+#tabel4 td{
+    width: 50%;
+    text-align: center;
+    border: 1px solid black
+}
+#tabel4 tr:nth-child(1) td:nth-child(3) {
+    width: 33%;
+    }
+#tabel4 tr:nth-child(1) td:nth-child(1) {
+    width: 33%;
+}
+#tabel4 tr:nth-child(1) td:nth-child(2) {
+    width: 33%;
+}
+#tabel4 tr:nth-child(2) td:nth-child(1) {
+    width: 33%;
+}
+#tabel4 tr:nth-child(3) td:nth-child(1) {
+    width: 33%;
+}
+#tabel4 tr:nth-child(3) td:nth-child(2) {
+    width: 33%;
+}
+#eesti{
+    width: 330px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+#eesti tr:nth-child(1){
+    background-color: blue;
+    height: 70px;
+}
+#eesti tr:nth-child(2){
+    background-color: black;
+    height: 70px;
+}
+#eesti tr:nth-child(3){
+    background-color: white;
+    height: 70px;
+}
+#belgium{
+    width: 330px;
+    height: 210px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+#belgium tr:nth-child(1) td:nth-child(1) {
+    width: 33%;
+    background-color: black;
+}
+#belgium tr:nth-child(1) td:nth-child(2) {
+    width: 33%;
+    background-color: yellow;
+}
+#belgium tr:nth-child(1) td:nth-child(3) {
+    width: 33%;
+    background-color: red;
+}
+#Swedesh{
+    width: 330px;
+    height: 210px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+#Swedesh tr:nth-child(1) td:nth-child(1) {
+    width: 20%;
+    background-color: blue;
+}
+#Swedesh tr:nth-child(1) td:nth-child(2) {
+    width: 10%;
+    background-color: yellow;
+}
+#Swedesh tr:nth-child(1) td:nth-child(3) {
+    width: 70%;
+    background-color: blue;}
+#Swedesh tr:nth-child(2) td:nth-child(1) {
+    width: 100%;
+    height: 15%;
+    background-color: yellow;
+}
+#Swedesh tr:nth-child(3) td:nth-child(1) {
+    width: 20%;
+    background-color: blue;
+}
+#Swedesh tr:nth-child(3) td:nth-child(2) {
+    width: 10%;
+    background-color: yellow;
+}
+#Swedesh tr:nth-child(3) td:nth-child(3) {
+    width: 70%;
+    background-color: blue;
+}
+#switzerland{
+    width: 180px;
+    height: 150px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+#switzerland tr:nth-child(1) td:nth-child(1) {
+    width: 100%;
+    background-color: red;
+}
+#switzerland tr:nth-child(2) td:nth-child(1) {
+    width: 40%;
+    background-color: red;
+}
+#switzerland tr:nth-child(2) td:nth-child(2) {
+    width: 20%;
+    background-color: white;
+}
+#switzerland tr:nth-child(2) td:nth-child(3) {
+    width: 40%;
+    background-color: red;
+}
+#switzerland tr:nth-child(3) td:nth-child(1) {
+    width: 20%;
+    background-color: red;
+}
+#switzerland tr:nth-child(3) td:nth-child(2) {
+    width: 60%;
+    background-color: white;
+}
+#switzerland tr:nth-child(3) td:nth-child(3) {
+    width: 20%;
+    background-color: red;
+}
+#switzerland tr:nth-child(4) td:nth-child(1) {
+    width: 40%;
+    background-color: red;
+}
+#switzerland tr:nth-child(4) td:nth-child(2) {
+    width: 20%;
+    background-color: white;
+}
+#switzerland tr:nth-child(4) td:nth-child(3) {
+    width: 40%;
+    background-color: red;
+}
+#switzerland tr:nth-child(5) td:nth-child(1) {
+    width: 100%;
+    background-color: red;
+}
