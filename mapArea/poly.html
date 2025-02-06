@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map area elmendid HTML</title>
+    <link rel="stylesheet" href="mapStyle.css">
+</head>
+<body>
+<h1>Map ootab hiire klick!</h1>
+<img src="map.png" alt="pilt" usemap="#pilt">
+<map name="pilt">
+    <!-- x, y, radius-->
+    <area shape="circle" coords="233,93,55" href="ring.html" alt="ring">
+    <area shape="rect" coords="70,171,230,295" href="rect.html" alt="rect">
+    <area shape="poly" coords="121,90,163,163,76,163" href="poly.html" alt="poly">
+</map>
+<div id="kirjeldus">poly></div>
+</body>
+</html>

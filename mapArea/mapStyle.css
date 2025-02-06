@@ -1,0 +1,9 @@
+div#kirjeldus{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    position: absolute;
+    border: 1px solid #ccc;
+    top: 100px;
+    left: 450px;
+}

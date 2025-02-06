@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee2764f-064c-4470-a8fa-90788061ad9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/table/tabelid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/table/tabelstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapArea/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapArea/mapStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapArea/poly.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapArea/rect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapArea/ring.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/lingid.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/lingid.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2sLPKaqfIn1fJxtBI9AFI52IB2G" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,6 +63,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.lingid.html.executor": "Run",
+    "JavaScript Debug.map.html.executor": "Run",
     "JavaScript Debug.tabelid.html.executor": "Run",
     "JavaScript Debug.test.html.executor": "Run",
     "JavaScript Debug.tood.html.executor": "Run",
@@ -81,6 +87,8 @@
       <recent name="C:\Users\LP1\WebstormProjects\weeb\content" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LP1\WebstormProjects\weeb" />
+      <recent name="C:\Users\LP1\WebstormProjects\weeb\table\mapArea" />
       <recent name="C:\Users\LP1\WebstormProjects\weeb\style" />
       <recent name="C:\Users\LP1\WebstormProjects\weeb\content" />
     </key>
@@ -110,7 +118,7 @@
       <workItem from="1738412278957" duration="7455000" />
       <workItem from="1738439056444" duration="75000" />
       <workItem from="1738439217520" duration="58000" />
-      <workItem from="1738836702102" duration="5772000" />
+      <workItem from="1738836702102" duration="9307000" />
     </task>
     <servers />
   </component>
