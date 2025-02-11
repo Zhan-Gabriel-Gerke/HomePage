@@ -1,6 +1,6 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #a18a9e;
+    background-color: #6C5B7B;
 }
 header{
     text-align: center;
@@ -9,28 +9,41 @@ header{
     border: solid 1px white;
     background-image: url("../content/logo.png");
     background-repeat: no-repeat;
-    background-color: lemonchiffon;
+    background-color: #6C5B7B;
     background-size: contain; /*pilt mahub header sisse*/
 }
 header h1{
     letter-spacing: 0.1cm;
+    color: #C06C84;
 }
 nav {
     margin: 0 0 10% 0;
-    background-color: chartreuse;
+    background-color: #6C5B7B;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
 }
 nav ul li{
     display: block;
     float: left;
     padding: 1%;
     width: 130px;
-    background-color: #ff8aff;
+    background-color: #6C5B7B;
     border: solid 1px white;
     margin-right: 1px;
     line-height: 40px;
 }
 nav a{
     text-decoration: none;
+    color: #C06C84;
 }
 
 section{
@@ -48,28 +61,37 @@ nav ul li .dropdown {
     list-style: none;
     padding: 0;
     margin: 0;
-    width: 150px;
+    width: 100px;
     border: 1px solid white;
+    height: 40px;
 }
 
 nav ul li:hover .dropdown {
     display: block;
+    height: 40px;
 }
 
 nav ul li .dropdown li {
     display: block;
-    padding: 10px;
+    padding: 5px;
+    width: 100px;
+    height: 40px;
 }
 
 nav ul li .dropdown li a {
     display: block;
-    padding: 10px;
+    padding: 1px;
     text-decoration: none;
-    background-color: #ff8aff;
-    color: black;
+    background-color: #6C5B7B;
+    color: #C06C84;
+    height: 40px;
 }
 .menu li:hover>a{
-    background: #555;
-    color: #fff;
-    padding: 10px;
+    background: #6C5B7B;
+    color: #F8EDEB;
+    padding: 5px;
+}
+main{
+    justify-content: center;
+    display: flex;
 }
