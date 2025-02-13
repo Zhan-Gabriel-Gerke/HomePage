@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="vormidStyle.css">
+    <title>Laste Kusimustik</title>
+</head>
+<body>
+<h1>Laste kusimustik</h1>
+<form action="" name = 'lasteKys'>
+    <table>
+    <tr>
+        <td><label for="nimi">Sisesta nimi: </label></td>
+        <td><input type="text" id="nimi" name="nimi" placeholder="Eesnimi" required></td>
+    </tr>
+    <tr>
+        <td><label for="vanus">Kusimustik: </label></td>
+        <td><input type="number" id="vanus" name="vanus" min="3" max="15" step="1" placeholder="Vanus" required></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <fieldset>
+                <legend>Sugu</legend>
+                <label for="pois">pois</label>
+                <input type="radio" id="pois" name="sugu">
+                <br>
+                <label for="tudruk">tudruk</label>
+                <input type="radio" id="tudruk" name="sugu"> <!--Name должен быть одинаковый если идёт ответ на один вопрос (чтобы везде нельзя было точки поставить) -->
+            </fieldset>
+        </td>
+    </tr>
+    <!-- Checkbox -->
+    <tr>
+        <td>Mis lapsele meeldib?</td>
+    <td>
+    <input type="checkbox" id="CocaCola" name="meeldib" value="CocaCola" checked><!-- checked - Выбирает галку автоматом за человека-->
+    <label for="CocaCola">CocaCola</label>
+    <br>
+    <input type="checkbox" id="Fanta" name="meeldib" value="Fanta">
+    <label for="Fanta">Fanta</label>
+    <br>
+    <input type="checkbox" id="Sprite" name="meeldib" value="Sprite">
+    <label for="Sprite">Sprite</label>
+    <br>
+    <input type="checkbox" id="CocaCola-Zero" name="meeldib" value="CocaCola-Zero">
+    <label for="CocaCola-Zero">CocaCola-Zero</label>
+    <br>
+    </td>
+    </tr>
+    <tr>
+        <td><label for="kool">Mis tuupi koolist sa opid?</label></td>
+    <td>
+        <select name="kool" id="kool">
+            <option value="1 kool">1 kool</option>
+            <option value="2 kool">2 kool</option>
+            <option value="3 kool">3 kool</option>
+            <option value="4 kool">4 kool</option>
+            <option value="5 kool">5 kool</option>
+            <option value="6 kool">6 kool</option>
+            <option value="7 kool">7 kool</option>
+        </select>
+    </td>
+    </tr>
+    <tr>
+        <td><input type="button" value="Salvesta"></td>
+        <td><input type="reset" value="Puhasta"></td>
+    </tr>
+    </table>
+</form>
+</body>
+</html>

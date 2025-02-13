@@ -1,0 +1,53 @@
+table{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 50%;
+    padding: 2%;
+}
+td{
+    padding: 2%;
+}
+input[type=text], input[type=number]{
+    border: 1px solid #000;
+    border-radius: 6px;
+    padding: 5px;
+    color: red;
+    background-color: blueviolet;
+}
+input[type=radio]:hover{
+    background-color: blueviolet;
+    font-size: 20pt;
+    padding: 10px;
+    width: 30px;
+    height: 20px;
+}
+label:hover{
+    background-color: blueviolet;
+    font-size: 20pt;
+    padding: 10px;
+    width: 30px;
+    height: 20px;
+}
+input[type=checkbox]+label {
+    background-color: blueviolet;
+    font-size: 20pt;
+    padding: 2px;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    line-height: 32px;
+}
+input[type=reset], input[type=button]{
+    border: 1px solid #000;
+    border-radius: 6px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: blueviolet;
+    background-color: blue;
+}
+select{
+
+}
+fieldset{
+
+}
