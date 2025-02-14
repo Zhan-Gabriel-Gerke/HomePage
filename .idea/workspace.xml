@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aee2764f-064c-4470-a8fa-90788061ad9c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapArea/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/mapArea/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapArea/mapStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/mapArea/mapStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vormid/kysimustik.html" beforeDir="false" afterPath="$PROJECT_DIR$/vormid/kysimustik.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vormid/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/vormid/test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vormid/testWithCss.html" beforeDir="false" afterPath="$PROJECT_DIR$/vormid/testWithCss.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.1.1.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.kysimustik.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.kysimustikWithTable.html.executor&quot;: &quot;Run&quot;,
@@ -134,7 +135,8 @@
       <workItem from="1739288484974" duration="4536000" />
       <workItem from="1739374508245" duration="1627000" />
       <workItem from="1739440225183" duration="12757000" />
-      <workItem from="1739526926377" duration="980000" />
+      <workItem from="1739526926377" duration="1714000" />
+      <workItem from="1739528798818" duration="3787000" />
     </task>
     <servers />
   </component>
