@@ -1,8 +1,8 @@
 #table1 {
+    border-style: double;
     border: 1px #000000 solid;
     position: absolute;
     left: 500px;
-    border-collapse: collapse;
 }
 #table1 td:first-child {
     width: 150px;
