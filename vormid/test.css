@@ -5,33 +5,37 @@ html, body {
      border-style: double;
      border: 1px #000000 solid;
      position: absolute;
-     left: 400px;
-     top: 220px;
+     left: 280px;
+     top: 230px;
  }
 #table2 {
     border-style: double;
     border: 1px #000000 solid;
-    top: 370px;
-    left: 0px;
+    top: 355px;
+    left: 10px;
     position: absolute;
 }
 #tabel3 {
     border-style: double;
     border: 1px #000000 solid;
-    top: 430px;
-    left: 0px;
+    top: 410px;
+    left: 10px;
     position: absolute;
 }
 #tabel4 {
     border-style: double;
-    border: 1px #000000 solid;
-    top: 490px;
-    left: 0px;
+    border: 3px #000000 solid;
+    top: 462px;
+    left: 10px;
     position: absolute;
 }
+#table1 tr td{
+    width: 200px;
+    text-align: center;
+}
 #table1 td:first-child {
-    width: 150px;
-    text-align: right;
+    width: 200px;
+    text-align: left;
 }
 #table1 td:nth-child(2){
     width: 100px;
@@ -46,16 +50,47 @@ html, body {
 }
 .listf{
     position: absolute;
-    top: 560px;
-    left: 0px;
+    top: 550px;
+    left: 10px;
+}
+ul{
+    list-style-type: disc;
 }
 .AAlist {
     position: absolute;
     top: 700px;
-    left: 0px;
+    left: 10px;
 }
-h4:first-of-type {
+.H41 {
     position: absolute;
-    top: 780px;
-    left: 0;
+    top: 790px;
+    left: 10px;
+}
+.alist {
+    position: absolute;
+    top: 825px;
+    left: 10px;
+}
+.H42{
+    position: absolute;
+    top: 905px;
+    left: 10px;
+}
+.IIlist{
+    position: absolute;
+    top: 940px;
+    left: 10px;
+}
+.H43{
+    position: absolute;
+    top: 1015px;
+    left: 10px;
+}
+.iiilist{
+    position: absolute;
+    top: 1050px;
+    left: 10px;
+}
+table tr:first-child {
+    text-align: center;
 }
