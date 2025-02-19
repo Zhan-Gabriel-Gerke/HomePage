@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee2764f-064c-4470-a8fa-90788061ad9c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vormid/newstyletest.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vormid/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/vormid/test.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vormid/testWithCss.html" beforeDir="false" afterPath="$PROJECT_DIR$/vormid/testWithCss.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tood.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/tood.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vormid/kysimustikWithTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/vormid/kysimustikWithTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vormid/vormidStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/vormid/vormidStyle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -136,7 +138,8 @@
       <workItem from="1739440225183" duration="12757000" />
       <workItem from="1739526926377" duration="1714000" />
       <workItem from="1739528798818" duration="3858000" />
-      <workItem from="1739544995222" duration="2244000" />
+      <workItem from="1739544995222" duration="2641000" />
+      <workItem from="1739981593179" duration="2960000" />
     </task>
     <servers />
   </component>
