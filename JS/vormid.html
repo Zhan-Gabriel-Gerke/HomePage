@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Vormist lugemine js abil</title>
+  <script src="lugemine.js"></script>
+</head>
+<body>
+<h1>Vormist lugemine js abil</h1>
+<label for="varv">Vali varv:</label>
+<input type='color' id="varv">
+<label for="nimi">Nimi:</label>
+<input type="text" id="nimi" name="nimi" oninput="tekstLugemine()">
+<div id="vastus"></div>
+<br>
+<input type="button" value="OK" onclick="nuppVajatamine()">
+<div id="vastus2"></div>
+<!-- radio nupp-->
+<input type="radio" id="jah" name="kysimus" value="jah" onchange="radioNupp()">
+<label for="jah">jah</label>
+<!--name всегда должен быть одинаковый к радио кнопкам которы относятся к одному вопросу-->
+<input type="radio" id="ei" name="kysimus" value="ei" onchange="radioNupp()">
+<label for="ei">ei</label>
+<br>
+<img src="" alt="" id="pilt">
+<br>
+<input type="button" value="Radio Click" onclick="radioNupp()">
+<div id="vastus3"></div>
+<!---select-->
+<label for="valik">Tee oma valik:</label>
+<select name="valik" id="valik" onchange="selectValik()">
+    <option value="">vali..</option>
+    <option value="opilane">opilane</option>
+    <option value='opetaja'>opetaja</option>
+    <option value='uliopilane'>uliopilane</option>
+    <option value='praktikant'>praktikant</option>
+</select>
+<div id="vastus4"></div>
+
+<!--reset nupp-->
+<input type="reset" value="Puhasta" onclick="puhasta()">
+</body>
+</html>
