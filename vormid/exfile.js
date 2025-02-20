@@ -22,16 +22,22 @@ function suguvalik(){
         Answer3.style.color='blue'
     } else if(tudruk.checked){
         Answer3.innerHTML='Teil on '+tudruk.value;
-        Answer3.style.color='purple'
+        Answer3.style.color='#FF10F0'
     }
 }
 function selectValik(){
-    let vastus4 = document.getElementById("vastus4");
-    let valik = document.getElementById("valik");
-    if(valik.selectedIndex!==0){
+    let Answer5 = document.getElementById("Answer5");
+    let kool = document.getElementById("kool");
+    if(kool.selectedIndex!==0){
         //!==0 не нулевая строка
-        vastus4.innerHTML = 'Sa oled valinud: '+valik.value;
+        Answer5.innerHTML = 'Sa oled valinud: '+kool.value;
     }else{
-        vastus4.innerHTML="Palun tee lahti ripploend ";
+        Answer5.innerHTML="Palun tee lahti ripploend ";
     }
+}
+function colorr(){
+    let favcolor = document.getElementById("favcolor");
+    let Answer6 = document.getElementById("Answer6");
+    Answer6.innerHTML='Ilus varv';
+    Answer6.style.color=favcolor.value;
 }

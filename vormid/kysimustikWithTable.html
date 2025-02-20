@@ -55,7 +55,8 @@
     <tr>
         <td><label for="kool">Mis tuupi koolist sa opid?</label></td>
     <td>
-        <select name="kool" id="kool">
+        <select name="kool" id="kool" onchange="selectValik()">
+            <option value="Vali kool">Vali kool</option>
             <option value="1 kool">1 kool</option>
             <option value="2 kool">2 kool</option>
             <option value="3 kool">3 kool</option>
@@ -82,15 +83,16 @@
             <td>
                 <input type="password" id="pwd" name="pwd">
             </td>
-            <td><div id="Answer6"></div></td>
+            <td></td>
         </tr>
         <tr>
             <td>
                 <label for="favcolor">Select favorite color of kid:</label>
             </td>
             <td>
-                <input type="color" id="favcolor" name="favcolor">
+                <input type="color" id="favcolor" name="favcolor" onchange="colorr()">
             </td>
+            <td><div id="Answer6"></div></td>
         </tr>
         <tr>
             <td>
