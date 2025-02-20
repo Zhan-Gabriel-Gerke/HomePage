@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee2764f-064c-4470-a8fa-90788061ad9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JS/lugemine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/vormid.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vormid/exfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/vormid/exfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vormid/kysimustikWithTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/vormid/kysimustikWithTable.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +141,7 @@
       <workItem from="1739544995222" duration="2641000" />
       <workItem from="1739981593179" duration="3336000" />
       <workItem from="1740045836699" duration="64000" />
-      <workItem from="1740045913644" duration="6308000" />
+      <workItem from="1740045913644" duration="8651000" />
     </task>
     <servers />
   </component>
