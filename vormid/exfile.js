@@ -41,3 +41,41 @@ function colorr(){
     Answer6.innerHTML='Ilus varv';
     Answer6.style.color=favcolor.value;
 }
+function iqlugemione() {
+    //innerHTML - genireerib vastus kohal id=vastus
+    document.getElementById("AnswerIQ").innerHTML =
+        "Suni IQ "+
+        document.getElementById("quantity").value;
+}
+function secretPhrase(){
+    document.getElementById("SecretAnswer").innerHTML =
+        "Secret information"+
+        document.getElementById("pwd").value;
+}
+function BirthDate(){
+    document.getElementById("Answer7").innerHTML =
+        "Birth date:"+
+        document.getElementById("birthday").value;
+}
+function emailPost(){
+    document.getElementById("Answer8").innerHTML =
+        "Email: "+
+        document.getElementById("email").value;
+}
+function phoneNumber(){
+    document.getElementById("Answer9").innerHTML =
+        "Phone: "+
+        document.getElementById("phone").value;
+}
+function totalinone(){
+    nimilugemine()
+    vanuslugemione()
+    suguvalik()
+    selectValik()
+    colorr()
+    iqlugemione()
+    secretPhrase()
+    BirthDate()
+    emailPost()
+    phoneNumber()
+}

@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aee2764f-064c-4470-a8fa-90788061ad9c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vormid/exfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/vormid/exfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vormid/kysimustikWithTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/vormid/kysimustikWithTable.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +142,10 @@
       <workItem from="1739981593179" duration="3336000" />
       <workItem from="1740045836699" duration="64000" />
       <workItem from="1740045913644" duration="9748000" />
-      <workItem from="1740056316988" duration="317000" />
+      <workItem from="1740056316988" duration="955000" />
+      <workItem from="1740126722506" duration="1237000" />
+      <workItem from="1740236410222" duration="912000" />
+      <workItem from="1740351143164" duration="2377000" />
     </task>
     <servers />
   </component>

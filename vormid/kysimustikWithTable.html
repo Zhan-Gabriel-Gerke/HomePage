@@ -12,12 +12,12 @@
     <table>
     <tr>
         <td><label for="nimi">Sisesta nimi: </label></td>
-        <td><input type="text" id="nimi" name="nimi" placeholder="Eesnimi" required oninput="nimilugemine()"></td>
+        <td><input type="text" id="nimi" name="nimi" placeholder="Eesnimi" required></td>
         <td><div id="Answer1"></div></td>
     </tr>
     <tr>
         <td><label for="vanus">Kusimustik: </label></td>
-        <td><input type="number" id="vanus" name="vanus" min="3" max="15" step="1" placeholder="Vanus" required onchange="vanuslugemione()"></td>
+        <td><input type="number" id="vanus" name="vanus" min="3" max="15" step="1" placeholder="Vanus" required></td>
         <td><div id="Answer2"></div></td>
     </tr>
     <tr>
@@ -25,10 +25,10 @@
             <fieldset>
                 <legend>Sugu</legend>
                 <label for="pois">pois</label>
-                <input type="radio" id="pois" name="sugu" value='pois' onchange="suguvalik()">
+                <input type="radio" id="pois" name="sugu" value='pois'>
                 <br>
                 <label for="tudruk">tudruk</label>
-                <input type="radio" id="tudruk" name="sugu" value='tudruk' onchange="suguvalik()"> <!--Name должен быть одинаковый если идёт ответ на один вопрос (чтобы везде нельзя было точки поставить) -->
+                <input type="radio" id="tudruk" name="sugu" value='tudruk'> <!--Name должен быть одинаковый если идёт ответ на один вопрос (чтобы везде нельзя было точки поставить) -->
             </fieldset>
         </td>
         <td><div id="Answer3"></div></td>
@@ -55,7 +55,7 @@
     <tr>
         <td><label for="kool">Mis tuupi koolist sa opid?</label></td>
     <td>
-        <select name="kool" id="kool" onchange="selectValik()">
+        <select name="kool" id="kool">
             <option value="Vali kool">Vali kool</option>
             <option value="1 kool">1 kool</option>
             <option value="2 kool">2 kool</option>
@@ -75,6 +75,7 @@
             <td>
                 <input type="number" id="quantity" name="quantity" min="1" max="500">
             </td>
+            <td><div id ="AnswerIQ"></div></td>
         </tr>
         <tr>
             <td>
@@ -83,14 +84,14 @@
             <td>
                 <input type="password" id="pwd" name="pwd">
             </td>
-            <td></td>
+            <td><div id="SecretAnswer"></div></td>
         </tr>
         <tr>
             <td>
                 <label for="favcolor">Select favorite color of kid:</label>
             </td>
             <td>
-                <input type="color" id="favcolor" name="favcolor" onchange="colorr()">
+                <input type="color" id="favcolor" name="favcolor">
             </td>
             <td><div id="Answer6"></div></td>
         </tr>
@@ -131,7 +132,7 @@
             <td><div id="Answer10"></div></td>
         </tr>
     <tr>
-        <td><input type="button" value="Salvesta"></td>
+        <td><input type="button" value="Salvesta" onclick="totalinone()"></td>
         <td><input type="reset" value="Puhasta"></td>
     </tr>
     </table>
