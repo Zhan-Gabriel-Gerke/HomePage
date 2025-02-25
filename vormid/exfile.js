@@ -1,5 +1,34 @@
 function puhasta(){
-
+    let Answer1=document.getElementById("Answer1");
+    Answer1.innerHTML="";
+    let Answer2=document.getElementById("Answer2");
+    Answer2.innerHTML="";
+    let Answer3=document.getElementById("Answer3");
+    Answer3.innerHTML="";
+    let Answer4=document.getElementById("Answer4");
+    Answer4.innerHTML="";
+    let Answer5=document.getElementById("Answer5");
+    Answer5.innerHTML="";
+    let pois=document.getElementById("pois");
+    pois.innerHTML="";
+    let tudruk=document.getElementById("tudruk");
+    tudruk.innerHTML="";
+    let favcolor=document.getElementById("favcolor");
+    favcolor.innerHTML="";
+    let AnswerIQ=document.getElementById("AnswerIQ");
+    AnswerIQ.innerHTML="";
+    let SecretAnswer=document.getElementById("SecretAnswer");
+    SecretAnswer.innerHTML="";
+    let kool=document.getElementById("kool");
+    kool.innerHTML="";
+    let Answer6=document.getElementById("Answer6");
+    Answer6.innerHTML="";
+    let Answer7=document.getElementById("Answer7");
+    Answer7.innerHTML="";
+    let Answer8=document.getElementById("Answer8");
+    Answer8.innerHTML="";
+    let Answer9=document.getElementById("Answer9");
+    Answer9.innerHTML="";
 }
 function nimilugemine() {
     //innerHTML - genireerib vastus kohal id=vastus
@@ -78,4 +107,19 @@ function totalinone(){
     BirthDate()
     emailPost()
     phoneNumber()
+}
+let table = document.getElementById("JStable");
+let selectedTd = null;
+table.onclick = function(event) {
+    let td = event.target.closest('td'); // (1)
+    if (!td) return; // (2)
+    if (!table.contains(td)) return; // (3)
+    highlight(td); // (4)
+};
+function highlight(td) {
+    if (selectedTd) { // убрать существующую подсветку, если есть
+        selectedTd.classList.remove('highlight');
+    }
+    selectedTd = td;
+    selectedTd.classList.add('highlight'); // подсветить новый td
 }

@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vormid/exfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/vormid/exfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vormid/kysimustikWithTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/vormid/kysimustikWithTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vormid/newstyletest.css" beforeDir="false" afterPath="$PROJECT_DIR$/vormid/newstyletest.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +146,8 @@
       <workItem from="1740056316988" duration="955000" />
       <workItem from="1740126722506" duration="1237000" />
       <workItem from="1740236410222" duration="912000" />
-      <workItem from="1740351143164" duration="2377000" />
+      <workItem from="1740351143164" duration="5136000" />
+      <workItem from="1740499202926" duration="3076000" />
     </task>
     <servers />
   </component>
@@ -153,8 +155,18 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="305ab43c-8244-47e0-adf2-853cdf1edc20" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="305ab43c-8244-47e0-adf2-853cdf1edc20">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
