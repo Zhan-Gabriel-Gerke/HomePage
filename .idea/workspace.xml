@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aee2764f-064c-4470-a8fa-90788061ad9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vormid/del.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vormid/deliger.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vormid/deligerimine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aee2764f-064c-4470-a8fa-90788061ad9c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +144,7 @@
       <workItem from="1740236410222" duration="912000" />
       <workItem from="1740351143164" duration="5136000" />
       <workItem from="1740499202926" duration="3229000" />
-      <workItem from="1740586537186" duration="4104000" />
+      <workItem from="1740586537186" duration="4186000" />
     </task>
     <servers />
   </component>
