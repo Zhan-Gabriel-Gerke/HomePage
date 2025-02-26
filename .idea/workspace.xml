@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee2764f-064c-4470-a8fa-90788061ad9c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vormid/del.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vormid/deliger.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vormid/deligerimine.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vormid/exfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/vormid/exfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vormid/kysimustikWithTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/vormid/kysimustikWithTable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vormid/newstyletest.css" beforeDir="false" afterPath="$PROJECT_DIR$/vormid/newstyletest.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +19,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -59,36 +59,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.1.1.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.kysimustik.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.kysimustikWithTable.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.lingid.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.map.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.ring.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.tabelid.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.test.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.testWithCss.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.tood.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.vormid.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LP1/source/repos/Veebirakenduste-aluste-Anna-Oleksi-koduleht&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.1.1.html.executor": "Run",
+    "JavaScript Debug.deligerimine.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.kysimustik.html.executor": "Run",
+    "JavaScript Debug.kysimustikWithTable.html.executor": "Run",
+    "JavaScript Debug.lingid.html.executor": "Run",
+    "JavaScript Debug.map.html.executor": "Run",
+    "JavaScript Debug.ring.html.executor": "Run",
+    "JavaScript Debug.tabelid.html.executor": "Run",
+    "JavaScript Debug.test.html.executor": "Run",
+    "JavaScript Debug.testWithCss.html.executor": "Run",
+    "JavaScript Debug.tood.html.executor": "Run",
+    "JavaScript Debug.vormid.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/LP1/source/repos/Veebirakenduste-aluste-Anna-Oleksi-koduleht",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LP1\WebstormProjects\weeb\content\ylesanne" />
@@ -147,7 +148,8 @@
       <workItem from="1740126722506" duration="1237000" />
       <workItem from="1740236410222" duration="912000" />
       <workItem from="1740351143164" duration="5136000" />
-      <workItem from="1740499202926" duration="3076000" />
+      <workItem from="1740499202926" duration="3229000" />
+      <workItem from="1740586537186" duration="4104000" />
     </task>
     <servers />
   </component>
