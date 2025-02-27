@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Piltmoustatus</title>
+    <script src="myistatusSctipt.js"></script>
+</head>
+<body onload="randomPilt()">
+<h1>pildi moistatus</h1>
+<input type="button" value="random pilt" onclick="randomPilt()">
+<br>
+<img src="" alt="" id="randomPilt">
+<br>
+<div id="radio">
+    <strong>Moista valja mis on pildil</strong>
+    <br>
+    <input type="radio" name="valik" id="pilt1" value="img/1.png" onclick="radioValik()">
+    <label for="pilt1">1</label>
+    <br>
+    <input type="radio" name="valik" id="pilt2" value="img/2.png" onclick="radioValik()">
+    <label for="pilt2">2</label>
+    <br>
+    <input type="radio" name="valik" id="pilt3" value="img/3.png" onclick="radioValik()">
+    <label for="pilt3">3</label>
+    <br>
+    <div id="vastus"></div>
+
+</div>
+</body>
+</html>
