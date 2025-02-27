@@ -27,3 +27,29 @@ function radioValik(){
         }
     }
 }
+
+function arvuta(kogus, hind){
+    return (kogus*hind).toFixed(1);
+    //toFixed(1) - 1 sumbol peale koma
+}
+const pilt1hind=1;
+const pilt2hind=2;
+const pilt3hind=3;
+
+
+function radioHindArvuta(){
+    let vastus2=document.getElementById('vastu2');
+    let pilt1=document.getElementById('pilt1');
+    let pilt2=document.getElementById('pilt2');
+    let pilt3=document.getElementById('pilt3');
+    let kogus=document.getElementById('kogus');
+    if(pilt1.checked){
+        vastus2.innerHTML=arvuta(kogus.value, pilt1hind)+'$';
+    }else if(pilt2.checked){
+        vastus2.innerHTML=arvuta(kogus.value, pilt2hind)+'$';
+    }else if(pilt3.checked){
+        vastus2.innerHTML=arvuta(kogus.value, pilt3hind)+'$';
+    }else{
+        vastus2.innerHTML='vali mis pilti sa soovid';
+    }
+}

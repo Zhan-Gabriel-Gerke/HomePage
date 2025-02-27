@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee2764f-064c-4470-a8fa-90788061ad9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/randomPilt/myistatus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/randomPilt/myistatusSctipt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomPilt/mycsyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomPilt/myistatuav.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomPilt/mystatusScriptv.v2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/tood.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/tood.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomPilt/myistatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/randomPilt/myistatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomPilt/myistatusSctipt.js" beforeDir="false" afterPath="$PROJECT_DIR$/randomPilt/myistatusSctipt.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +22,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -68,6 +72,7 @@
     "JavaScript Debug.kysimustikWithTable.html.executor": "Run",
     "JavaScript Debug.lingid.html.executor": "Run",
     "JavaScript Debug.map.html.executor": "Run",
+    "JavaScript Debug.myistatuav.2.html.executor": "Run",
     "JavaScript Debug.myistatus.html.executor": "Run",
     "JavaScript Debug.ring.html.executor": "Run",
     "JavaScript Debug.tabelid.html.executor": "Run",
@@ -96,11 +101,11 @@
       <recent name="C:\Users\LP1\WebstormProjects\weeb\content" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LP1\WebstormProjects\weeb\randomPilt" />
       <recent name="C:\Users\LP1\WebstormProjects\weeb\vormid" />
       <recent name="C:\Users\LP1\WebstormProjects\weeb\mapArea" />
       <recent name="C:\Users\LP1\WebstormProjects\weeb" />
       <recent name="C:\Users\LP1\WebstormProjects\weeb\table\mapArea" />
-      <recent name="C:\Users\LP1\WebstormProjects\weeb\style" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -152,7 +157,7 @@
       <workItem from="1740586537186" duration="4186000" />
       <workItem from="1740590863523" duration="62000" />
       <workItem from="1740602910122" duration="340000" />
-      <workItem from="1740650477135" duration="2479000" />
+      <workItem from="1740650477135" duration="9363000" />
     </task>
     <servers />
   </component>

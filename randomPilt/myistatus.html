@@ -15,16 +15,20 @@
     <strong>Moista valja mis on pildil</strong>
     <br>
     <input type="radio" name="valik" id="pilt1" value="img/1.png" onclick="radioValik()">
-    <label for="pilt1">1</label>
+    <label for="pilt1">1 $</label>
     <br>
     <input type="radio" name="valik" id="pilt2" value="img/2.png" onclick="radioValik()">
-    <label for="pilt2">2</label>
+    <label for="pilt2">2 $</label>
     <br>
     <input type="radio" name="valik" id="pilt3" value="img/3.png" onclick="radioValik()">
-    <label for="pilt3">3</label>
+    <label for="pilt3">3 $</label>
     <br>
     <div id="vastus"></div>
-
+</div>
+<div id="kogusInput">
+    <label for="kogus">Mitu tukki sa soovid?</label>
+    <input type="number" id="kogus" min="1" max="100" step="1" onclick="radioHindArvuta()">
+    <div id="vastus2"></div>
 </div>
 </body>
 </html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pildi mõistatus</title>
+  <script src="mystatusScriptv.v2.js"></script>
+  <link rel="stylesheet" href="mycsyle.css">
+</head>
+<header>
+  <!--<img src="content/logo.png" alt="logo">-->
+  <h1>Veebirakenduste aluste Opilane koduleht</h1>
+</header>
+<nav>
+  <ul>
+    <li>
+      <a href="../index.html">Avaleht</a>
+    </li>
+    <li>
+      <a href="../content/lingid.html">Lingid</a>
+    </li>
+    <li>
+      <a href="https://zhan-gabrielgerke24.thkit.ee/wp/">Portfoolio</a>
+    </li>
+    <li>
+      <a href="../content/tood.html">Tehtud tood</a>
+    </li>
+  </ul>
+</nav>
+<body onload="randomPilt()">
+<h1>Pildimõistatus</h1>
+<input type="button" value="Random pilt" onclick="randomPilt()">
+<br>
+<img src="" alt="" id="randomPilt">
+<br>
+<div id="radio">
+  <strong>Mõista välja mis on pildil</strong>
+  <br>
+  <input type="radio" name="valik" id="pilt1" value="img/1.png" onclick="radioValik()">
+  <label for="pilt1">1 euro</label>
+  <br>
+  <input type="radio" name="valik" id="pilt2" value="img/2.jpg" onclick="radioValik()">
+  <label for="pilt2">2 euro</label>
+  <br>
+  <input type="radio" name="valik" id="pilt3" value="img/3.png" onclick="radioValik()">
+  <label for="pilt3">3 euro</label>
+  <br>
+  <div id="vastus"></div>
+</div>
+<div id="kogusInput">
+  <label for="kogus">Mitu tükki sa soovid?</label>
+  <input type="number" id="kogus" min="1" max="100" step="1" onclick="radioHindArvuta()">
+  <div id="vastus2"></div>
+</div>
+<div id="calculator">
+  <strong>Calculator</strong>
+  <br>
+  <label for="number1">Fisrt number</label>
+  <input type="number" id="number1" value="number1">
+  <br>
+  <label for="number2">Second number</label>
+  <input type="number" id="number2" value="number1">
+  <p>Operation</p>
+  <input type="radio" name="operation" id="op+" value="+" onclick="radioValik()">
+  <label for="op+">+</label>
+  <br>
+  <input type="radio" name="operation" id="op-" value="-" onclick="radioValik()">
+  <label for="op-">-</label>
+  <br>
+  <input type="radio" name="operation" id="op/" value="/" onclick="radioValik()">
+  <label for="op/">/</label>
+  <br>
+  <input type="radio" name="operation" id="op*" value="*" onclick="radioValik()">
+  <label for="op*">*</label>
+  </div>
+<div id="answercalculator"></div>
+</body>
+</html>
