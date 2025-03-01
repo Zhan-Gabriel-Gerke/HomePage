@@ -102,3 +102,7 @@ img.displayed {
     left: 0;
     opacity: 1;
 }
+.small-image {
+    width: 200px; /* Ширина */
+    height: auto; /* Сохранение пропорций */
+}

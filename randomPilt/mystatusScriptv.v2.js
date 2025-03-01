@@ -1,9 +1,9 @@
 // random pilt, mis võetakse piltide massiivist
 function randomPilt() {
     const pildid=[
-        'img/black.png',
-        'img/ironman.jpg',
-        'img/Marvel.png'
+        'img/1.png',
+        'img/2.jpg',
+        'img/3.png'
     ];
     //random pilt
     const pilt=Math.floor(Math.random() * pildid.length);

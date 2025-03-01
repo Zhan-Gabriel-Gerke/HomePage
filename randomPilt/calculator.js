@@ -7,7 +7,31 @@ const RE_Exchange_rate=0.011;
 const UE_Exchange_rate=0.96;
 const ER_Exchange_rate=92.73;
 const EU_Exchange_rate=1.04;
+function  Chose_Image() {
+    const Images=[
+        'img/Euro.png',
+        'img/rubles.jpg',
+        'img/dollars.png'
+    ]
+    let RE = document.getElementById("RE");
+    let UE = document.getElementById("UE");
+    let ER = document.getElementById("ER");
+    let EU = document.getElementById("EU");
+    if (RE.checked) {
+        const Chose_Image=document.getElementById("Chose_Image");
+        Chose_Image.src='img/Euro.png'
+    } else if (UE.checked) {
+        const Chose_Image=document.getElementById("Chose_Image");
+        Chose_Image.src='img/Euro.png'
+    } else if (ER.checked) {
+        const Chose_Image=document.getElementById("Chose_Image");
+        Chose_Image.src='img/rubles.jpg'
+    } else if (EU.checked) {
+        const Chose_Image=document.getElementById("Chose_Image");
+        Chose_Image.src='img/dollars.jpg'
+    }
 
+}
 function Current_Exchange(){
     let Answer=document.getElementById("Answer");
     let RE=document.getElementById("RE");
@@ -26,5 +50,5 @@ function Current_Exchange(){
     }else {
         Answer.innerHTML="You have to choose some of radio buttons"
     }
-
+    Chose_Image()
 }
