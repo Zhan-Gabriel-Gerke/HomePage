@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="et">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Calculator</title>
     <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
 </head>
 <!--  -->
 <body>
@@ -32,3 +33,24 @@
         </li>
     </ul>
 </nav>
+<div id="radio">
+    <strong>Current Exchange</strong>
+    <br>
+    <input type="radio" name="Choice" id="RE">
+    <label for="RE">RUB -> EURO</label>
+    <br>
+    <input type="radio" name="Choice" id="UE">
+    <label for="UE">USD -> EURO</label>
+    <br>
+    <input type="radio" name="Choice" id="ER">
+    <label for="ER">EURO -> RUB</label>
+    <br>
+    <input type="radio" name="Choice" id="EU">
+    <label for="EU">EURO -> USD</label>
+</div>
+<div id="quantityInput">
+    <label for="quantity">How much money do you want ot exchange?</label>
+    <input type="number" id="quantity" min="1" max="100000" step="1" onclick="Current_Exchange()">
+    <div id="Answer"></div>
+</div>
+</body>

@@ -1,9 +1,9 @@
 // random pilt, mis võetakse piltide massiivist
 function randomPilt() {
     const pildid=[
-        'img/1.png',
-        'img/2.jpg',
-        'img/3.png'
+        'img/black.png',
+        'img/ironman.jpg',
+        'img/Marvel.png'
     ];
     //random pilt
     const pilt=Math.floor(Math.random() * pildid.length);
@@ -37,8 +37,8 @@ function arvuta(kogus, hind){
     //mathfloar - rovnie chisla
 }
 const pilt1hind=1;
-const pilt2hind=2;
-const pilt3hind=3;
+const pilt2hind=9;
+const pilt3hind=0;
 
 function radioHindArvuta(){
     let vastus2=document.getElementById("vastus2");
@@ -57,21 +57,4 @@ function radioHindArvuta(){
 
     }
 
-}
-
-function Valik(){
-    let Answer=document.getElementById("Answer");
-    let Choise=document.getElementsByName("Choise"); //mitu elemnti nimega valik
-
-    for(let i=0;i<valik.length;i++){
-        if(valik[i].checked){
-            if(randomPilt.getAttribute("src")==valik[i].value){
-                vastus.innerHTML="Õige";
-                vastus.style.backgroundColor="lightgreen";
-            }else {
-                vastus.innerHTML="Vale";
-                vastus.style.backgroundColor="red";
-            }
-        }
-    }
 }
