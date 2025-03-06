@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee2764f-064c-4470-a8fa-90788061ad9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/randomPilt/img/Euro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/randomPilt/img/dollars.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/randomPilt/img/rubles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canvas/canvas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canvas/canvasScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canvas/canvasstyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/randomPilt/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/randomPilt/calculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/randomPilt/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/randomPilt/calculator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/randomPilt/myistatuav.2.html" beforeDir="false" afterPath="$PROJECT_DIR$/randomPilt/myistatuav.2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/randomPilt/mystatusScriptv.v2.js" beforeDir="false" afterPath="$PROJECT_DIR$/randomPilt/mystatusScriptv.v2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,40 +59,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.1.1.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.calculator.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.deligerimine.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.kysimustik.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.kysimustikWithTable.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.lingid.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.map.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.myistatuav.2.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.myistatus.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.ring.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.tabelid.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.test.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.testWithCss.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.tood.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.vormid.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LP1/source/repos/Veebirakenduste-aluste-Anna-Oleksi-koduleht&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.1.1.html.executor": "Run",
+    "JavaScript Debug.calculator.html.executor": "Run",
+    "JavaScript Debug.canvas.html.executor": "Run",
+    "JavaScript Debug.deligerimine.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.kysimustik.html.executor": "Run",
+    "JavaScript Debug.kysimustikWithTable.html.executor": "Run",
+    "JavaScript Debug.lingid.html.executor": "Run",
+    "JavaScript Debug.map.html.executor": "Run",
+    "JavaScript Debug.myistatuav.2.html.executor": "Run",
+    "JavaScript Debug.myistatus.html.executor": "Run",
+    "JavaScript Debug.ring.html.executor": "Run",
+    "JavaScript Debug.tabelid.html.executor": "Run",
+    "JavaScript Debug.test.html.executor": "Run",
+    "JavaScript Debug.testWithCss.html.executor": "Run",
+    "JavaScript Debug.tood.html.executor": "Run",
+    "JavaScript Debug.vormid.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/LP1/source/repos/Veebirakenduste-aluste-Anna-Oleksi-koduleht",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LP1\WebstormProjects\weeb\content\ylesanne" />
@@ -166,7 +163,10 @@
       <workItem from="1740838941797" duration="2085000" />
       <workItem from="1740853492240" duration="836000" />
       <workItem from="1740854341885" duration="3814000" />
-      <workItem from="1740858327923" duration="2285000" />
+      <workItem from="1740858327923" duration="2605000" />
+      <workItem from="1740940698490" duration="2357000" />
+      <workItem from="1741161379224" duration="596000" />
+      <workItem from="1741249615776" duration="2914000" />
     </task>
     <servers />
   </component>

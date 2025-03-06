@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Joonistamine JS abil</title>
+    <link rel="stylesheet" href="canvasstyle.css">
+    <script src="canvasScript.js"></script>
+</head>
+<body>
+<h1>Joonistamine JS abil</h1>
+<canvas id="pyhi" width="400" height="300"></canvas>
+<br>
+<input type="button" value="kustuta" onclick="kustuta()">
+<input type="button" value="ring" onclick="ring()">
+<label for="radius"> Radius</label>
+<input type="number" id="radius" min="1" max="200" step="10" onclick="kustuta()">
+<input type="button" value="ristkulik" onclick="ristkulik()">
+<label for="laius"> laius</label>
+<input type="number" id="laius" min="1" max="200" step="10" onclick="ristkulik()">
+<label for="korgus"> korgus</label>
+<input type="number" id="korgus" min="1" max="200" step="10" onclick="ristkulik()">
+<br>
+<input type="button" value="joon" onclick="joon()">
+</body>
+</html>
