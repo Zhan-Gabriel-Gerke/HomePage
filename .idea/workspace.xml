@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee2764f-064c-4470-a8fa-90788061ad9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/canvas/canvas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/canvas/canvasScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/canvas/canvasstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canvas/lippScript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/canvas.html" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/canvas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomPilt/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/randomPilt/calculator.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +166,7 @@
       <workItem from="1740858327923" duration="2605000" />
       <workItem from="1740940698490" duration="2357000" />
       <workItem from="1741161379224" duration="596000" />
-      <workItem from="1741249615776" duration="2914000" />
+      <workItem from="1741249615776" duration="8853000" />
     </task>
     <servers />
   </component>

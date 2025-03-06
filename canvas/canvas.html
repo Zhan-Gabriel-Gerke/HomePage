@@ -5,6 +5,7 @@
     <title>Joonistamine JS abil</title>
     <link rel="stylesheet" href="canvasstyle.css">
     <script src="canvasScript.js"></script>
+    <script src="lippScript.js"></script>
 </head>
 <body>
 <h1>Joonistamine JS abil</h1>
@@ -21,5 +22,16 @@
 <input type="number" id="korgus" min="1" max="200" step="10" onclick="ristkulik()">
 <br>
 <input type="button" value="joon" onclick="joon()">
+
+<h2>Lipud</h2>
+<canvas id="lipp" width="330" height="220"></canvas>
+<input type="button" value="eesti" onclick="eestilipp()">
+<input type="button" value="fra" onclick="fralipp()">
+<input type="button" value="japan" onclick="japanlipp()">
+<input type="button" value="kustuta" onclick="remove()">
+<br>
+<canvas id="Swlipp" width="200" height="200"></canvas>
+<input type="button" value="SWIT" onclick="Switlipp()">
+<input type="button" value="kustuta" onclick="removeSwis()">
 </body>
 </html>
