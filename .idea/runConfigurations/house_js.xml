@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="house.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="house.js" typescript-loader="bundled" working-dir="$PROJECT_DIR$/canvas">
+    <method v="2" />
+  </configuration>
+</component>
