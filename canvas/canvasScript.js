@@ -53,9 +53,8 @@ function joon(){
         p.lineTo(150, 100); //loppunkt
         p.lineTo(150, 250);
         p.lineTo(50, 100);
-        p.stroke();
-        p.fill(); //If you want fill the shape
+        p.stroke()
+        p.fill(); //If you want to fill the shape
         //kolmnurk
-
     }
 }

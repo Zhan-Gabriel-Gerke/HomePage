@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee2764f-064c-4470-a8fa-90788061ad9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/canvas/lippScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canvas/house.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/canvas/canvas.html" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/canvas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/randomPilt/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/randomPilt/calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/canvasScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/canvasScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/canvasstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/canvasstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/lippScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/lippScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +81,7 @@
     "JavaScript Debug.testWithCss.html.executor": "Run",
     "JavaScript Debug.tood.html.executor": "Run",
     "JavaScript Debug.vormid.html.executor": "Run",
+    "Node.js.house.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -106,6 +109,11 @@
       <recent name="C:\Users\LP1\WebstormProjects\weeb\mapArea" />
       <recent name="C:\Users\LP1\WebstormProjects\weeb" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="house.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="house.js" working-dir="$PROJECT_DIR$/canvas">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -166,7 +174,8 @@
       <workItem from="1740858327923" duration="2605000" />
       <workItem from="1740940698490" duration="2357000" />
       <workItem from="1741161379224" duration="596000" />
-      <workItem from="1741249615776" duration="8853000" />
+      <workItem from="1741249615776" duration="9617000" />
+      <workItem from="1741454542943" duration="9211000" />
     </task>
     <servers />
   </component>

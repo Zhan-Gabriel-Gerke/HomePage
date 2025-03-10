@@ -2,12 +2,17 @@ function eestilipp(){
     const lipp=document.getElementById("lipp");
     if (lipp.getContext) {
         let l = lipp.getContext("2d"); //canvas nimi
+        let img = new Image();
         l.fillStyle = "blue";
         l.fillRect(0,0,330,500);
         l.fillStyle = "black";
         l.fillRect(0,70,330,70)
         l.fillStyle = "white";
         l.fillRect(0,140,330,70)
+        img.onload = function() {
+            l.drawImage(img, 100, 40);
+        };
+        img.src = 'herb.png';
     }
 }
 
@@ -67,6 +72,10 @@ function japanlipp(){
         j.fillStyle = "white";
         j.fillRect(0,0,330,220)
         j.beginPath();
-        j.arc(50, 50, 20, 0, 2*Math.PI, true);
+        j.arc(170, 110, 50, 0, 2*Math.PI, true);
+        j.strokeStyle='red'
+        j.fillStyle='red'
+        j.fill();
+        j.stroke(); //joonista
     }
 }
