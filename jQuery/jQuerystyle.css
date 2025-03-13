@@ -1,9 +1,3 @@
-canvas {
-    background-color: lavender;
-    /*width: 400px;*/
-    border: 1px solid gray;
-    z-index: 10;
-}
 div#kirjeldus{
     width: 150px;
     height: 150px;
@@ -116,7 +110,15 @@ section{
     padding: 2%;/* comment*/
 
 }
-main {
+main{
     justify-content: center;
     display: flex;
+}
+div#tekst{
+    position: relative;
+    left: 0;
+    border: solid black 1px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 30px;
 }

@@ -4,40 +4,55 @@
     <meta charset="UTF-8">
     <title>Zhan-Gabriel Gerke Kodulehe</title>
     <link rel="stylesheet" href="style/mystyle.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js" integrity="sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI=" crossorigin="anonymous"></script>
+    <script>
+        //teksti vart - orange
+        function start(){
+            $('#piltcardrag').draggable(); //Чтобы картинка бегала по странице
+            //https://pastebin.com/1bZGmG2X
+        }
+    </script>
 </head>
-<body>
+<!--  -->
+<body onload="start()">
 <header>
     <!--<img src="content/logo.png" alt="logo">-->
     <h1>Veebirakenduste aluste Opilane koduleht</h1>
-  </header>
-
-  <nav>
-      <ul>
-          <li>
-              <a href="#">Avaleht</a>
-          </li>
-          <li>
-              <a href="content/lingid.html">Lingid</a>
-          </li>
-          <li>
-              <a href="https://zhan-gabrielgerke24.thkit.ee/wp/">Portfoolio</a>
-          </li>
-          <li>
-              <a href="content/tood.html">Tehtud tood</a>
-          </li>
-      </ul>
-  </nav>
+</header>
+<nav class="menu">
+    <ul>
+        <li>
+            <a href="index.html">Avaleht</a>
+        </li>
+        <li>
+            <a href="content/lingid.html">Lingid</a>
+        </li>
+        <li>
+            <a href="#">Portfoolio</a>
+            <ul class="dropdown">
+                <li><a href="https://zhan-gabrielgerke24.thkit.ee/wp/">WP</a></li>
+                <li><a href="https://www.tthk.ee/">TTHK</a></li>
+                <li><a href="https://tahvel.edu.ee/#/">TAHVEL</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="content/tood.html">Tehtud tood</a>
+        </li>
+    </ul>
+</nav>
   <main>
+      <img src="jQuery/cat.jpg" alt="catwithcigarett" id="piltcardrag" width="140">
       <section>
           <h2> Opilase info</h2>
           <div>tekstTekst</div>
       </section>
+      <section></section>
       <section>
           <h2> Opilase info</h2>
           <div>tekstTekst</div>
       </section>
   </main>
-
   <footer>
       <strong>Kontaktinfo</strong>
       leht tegi Z-G.G. &copy; 2025

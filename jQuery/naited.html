@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery naited</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js" integrity="sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI=" crossorigin="anonymous"></script>
+  <script>
+    //teksti vart - orange
+    function orange(){
+      $('h2').css('color', 'orange');
+    }
+    function mustaks(){
+      $('h2').css('color', 'black');
+    }
+    function roheliseks(){
+      $('#tekst').css('color', 'green');
+    }
+    function koordinadid(event, ui){
+      var koht=ui.offset;
+      $('#koord').html('x: '+koht.left+'; y: '+koht.top);
+    }
+    function start(){
+      $('h2, #tekst').mouseenter(orange); //hiir on peal
+      $('h2').mouseleave(mustaks);// hiir on valja
+      $('#tekst').mouseenter(roheliseks);
+      $('#pilt').draggable(); //Чтобы картинка бегала по странице
+      $('#tekst').draggable();
+      $('#pilt').bind('drag', koordinadid)
+      //https://pastebin.com/1bZGmG2X
+    }
+  </script>
+  <link rel="stylesheet" href="jQuerystyle.css">
+</head>
+<body onload="start()">
+<header>
+  <!--<img src="content/logo.png" alt="logo">-->
+  <h1>Veebirakenduste aluste Opilane koduleht</h1>
+</header>
+<nav class="menu">
+  <ul>
+    <li>
+      <a href="../index.html">Avaleht</a>
+    </li>
+    <li>
+      <a href="../content/lingid.html">Lingid</a>
+    </li>
+    <li>
+      <a href="#">Portfoolio</a>
+      <ul class="dropdown">
+        <li><a href="https://zhan-gabrielgerke24.thkit.ee/wp/">WP</a></li>
+        <li><a href="https://www.tthk.ee/">TTHK</a></li>
+        <li><a href="https://tahvel.edu.ee/#/">TAHVEL</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="../content/tood.html">Tehtud tood</a>
+    </li>
+  </ul>
+</nav>
+<h2>jQuery naited</h2>
+<div id="tekst">
+  jQuery CDN.
+  jQuery is a JavaScript Library.
+  jQuery greatly simplifies JavaScript programming.
+  jQuery is easy to learn.
+</div>
+<input type="button" value="paremale"
+       onclick="$('div#tekst').animate({left: '500px'}, 1000)">
+<input type="button" value="vasakule"
+       onclick="$('div#tekst').animate({left: '0px'}, 1000)">
+<br>
+<img src="catwithcigarett.png" alt="catwithcigarett" id="pilt">
+<div id="koord"></div>
+</body>
+</html>
