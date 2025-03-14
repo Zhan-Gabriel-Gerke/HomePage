@@ -127,5 +127,10 @@ div#tekst{
 img#piltcardrag{
     position: absolute;
     text-align: center;
-    top: 220px;
+    top: 190px;
+}
+button#button1{
+    position: absolute;
+    text-align: center;
+    top: 335px;
 }

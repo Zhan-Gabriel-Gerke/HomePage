@@ -10,8 +10,32 @@
         //teksti vart - orange
         function start(){
             $('#piltcardrag').draggable(); //Чтобы картинка бегала по странице
+            $('#sectiondrag1').draggable();
+            $('#sectiondrag2').draggable();
+            $('#sectiondrag3').draggable();
             //https://pastebin.com/1bZGmG2X
         }
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#button1").click(function(){
+                $("#sectiondrag2").css("color", "red").slideUp(2000).slideDown(2000);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                $("#pp").append("<b>0</b>");
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#ppp").click(function(){
+                $(this).hide();
+            });
+        });
     </script>
 </head>
 <!--  -->
@@ -43,15 +67,26 @@
 </nav>
   <main>
       <img src="jQuery/cat.jpg" alt="catwithcigarett" id="piltcardrag" width="140">
-      <section>
+      <button id="button1">Нажми меня и увидишь анимацию</button>
+      <section id="sectiondrag1">
           <h2> Opilase info</h2>
           <div>tekstTekst</div>
       </section>
-      <section></section>
-      <section>
+      <section id="sectiondrag2">
+          <ul>
+              <li>Меня можно двигать</li>
+              <li>А также Моих братьев слева и справа</li>
+              <li>А также картинку сверху</li>
+          </ul>
+          <p id="pp">Ваш баланс в евро : <b>100</b></p>
+          <button id="btn1">Добавить денег на счёт</button>
+          <p id="ppp"><b>Нажми на меня и я пропаду</b></p>
+      </section>
+      <section id="sectiondrag3">
           <h2> Opilase info</h2>
           <div>tekstTekst</div>
       </section>
+      <br>
   </main>
   <footer>
       <strong>Kontaktinfo</strong>

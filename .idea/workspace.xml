@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee2764f-064c-4470-a8fa-90788061ad9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/content/ylesanne/mystyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/jQuerystyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/naited.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas/canvas.html" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/canvas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas/canvasstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/canvasstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/lingid.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/lingid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/tood.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/tood.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ylesanne/indexsave.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/ylesanne/indexsave.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/mystyle.css" afterDir="false" />
     </list>
@@ -27,8 +20,8 @@
       <list>
         <option value="TypeScript File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -66,43 +59,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.1.1.html.executor": "Run",
-    "JavaScript Debug.calculator.html.executor": "Run",
-    "JavaScript Debug.canvas.html.executor": "Run",
-    "JavaScript Debug.deligerimine.html.executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.kysimustik.html.executor": "Run",
-    "JavaScript Debug.kysimustikWithTable.html.executor": "Run",
-    "JavaScript Debug.lingid.html.executor": "Run",
-    "JavaScript Debug.map.html.executor": "Run",
-    "JavaScript Debug.myistatuav.2.html.executor": "Run",
-    "JavaScript Debug.myistatus.html.executor": "Run",
-    "JavaScript Debug.naited.html.executor": "Run",
-    "JavaScript Debug.ring.html.executor": "Run",
-    "JavaScript Debug.tabelid.html.executor": "Run",
-    "JavaScript Debug.test.html.executor": "Run",
-    "JavaScript Debug.testWithCss.html.executor": "Run",
-    "JavaScript Debug.tood.html.executor": "Run",
-    "JavaScript Debug.vormid.html.executor": "Run",
-    "Node.js.house.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/LP1/WebstormProjects/weeb/content/ylesanne",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.1.1.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.calculator.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.canvas.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.deligerimine.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.indexsave.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.kysimustik.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.kysimustikWithTable.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.lingid.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.map.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.myistatuav.2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.myistatus.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.naited.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ring.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.tabelid.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.test.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.testWithCss.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.tood.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.vormid.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.house.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LP1/WebstormProjects/weeb/content/ylesanne&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LP1\WebstormProjects\weeb\content\ylesanne" />
@@ -178,7 +172,9 @@
       <workItem from="1741249615776" duration="9617000" />
       <workItem from="1741454542943" duration="9211000" />
       <workItem from="1741629387118" duration="4188000" />
-      <workItem from="1741848182167" duration="10647000" />
+      <workItem from="1741848182167" duration="12373000" />
+      <workItem from="1741935524835" duration="5107000" />
+      <workItem from="1741947005177" duration="983000" />
     </task>
     <servers />
   </component>
