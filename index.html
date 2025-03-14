@@ -35,6 +35,9 @@
             $("#ppp").click(function(){
                 $(this).hide();
             });
+            $("#pppp").click(function(){
+                $(this).hide();
+            });
         });
     </script>
 </head>
@@ -69,8 +72,26 @@
       <img src="jQuery/cat.jpg" alt="catwithcigarett" id="piltcardrag" width="140">
       <button id="button1">Нажми меня и увидишь анимацию</button>
       <section id="sectiondrag1">
-          <h2> Opilase info</h2>
-          <div>tekstTekst</div>
+          <h2> jQuery - Chaining</h2>
+          <div>Работает при помощи данного кода
+              $("#p1").css("color", "red")
+              .slideUp(2000)
+              .slideDown(2000);
+          Применён для кнопки "Нажми меня и увидешь анимацию"
+          Находится под картинкой с котом</div>
+          <h2>jQuery Editor</h2>
+          <div>
+            работает при помощи этого кода
+              $(document).ready(function(){
+              $("#ppp").click(function(){
+              $(this).hide();
+              });
+              });
+              применен к исчезающей строчке
+              <p id="pppp">
+              "Нажми на меня и я пропаду"
+              </p>
+          </div>
       </section>
       <section id="sectiondrag2">
           <ul>
@@ -83,8 +104,13 @@
           <p id="ppp"><b>Нажми на меня и я пропаду</b></p>
       </section>
       <section id="sectiondrag3">
-          <h2> Opilase info</h2>
-          <div>tekstTekst</div>
+          <h2>jQuery append() Method</h2>
+          <div>        $(document).ready(function(){
+              $("#btn1").click(function(){
+              $("#pp").append("<b>0</b>");
+              });
+              });
+          Про помощи этого метода добавляются нолики</div>
       </section>
       <br>
   </main>
