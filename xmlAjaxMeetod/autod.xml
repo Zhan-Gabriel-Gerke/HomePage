@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<autod>
+    <auto>
+        <mark>Lexus</mark>
+        <pilt></pilt>
+        <link></link>
+    </auto>
+    <auto>
+        <mark>Kia</mark>
+        <pilt></pilt>
+        <link></link>
+    </auto>
+    <auto>
+        <mark>Volkswagen</mark>
+        <pilt></pilt>
+        <link></link>
+    </auto>
+</autod>
