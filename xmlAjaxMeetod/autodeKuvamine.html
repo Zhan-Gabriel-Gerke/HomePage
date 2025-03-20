@@ -20,7 +20,13 @@
       function kuvaXML(xml){
         $(xml).find("auto").each(function() {
           $("#vastus").append(
-                  '<h2>'+$(this).find("mark").text()+'</h2>'
+                  '<h2>'+$(this).find("mark").text()+'</h2>'+
+              '<a href="'+$(this).find("link").text()+'" target="_blank">'+
+              '<img src="pildid/'+$(this).find("pilt").text()+'" alt="pilt">'+
+              '</a>'+
+              '<a href="'+$(this).find("link").text()+'" target="_blank">'+
+              $(this).find("mark").text()+
+              '</a>'
           );
         });
       }

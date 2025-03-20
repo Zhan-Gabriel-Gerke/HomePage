@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee2764f-064c-4470-a8fa-90788061ad9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xmlAjaxMeetod/autod.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xmlAjaxMeetod/autodeKuvamine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlAjaxMeetod/ex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlAjaxMeetod/ex.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlAjaxMeetod/img.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlAjaxMeetod/autod.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmlAjaxMeetod/autod.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlAjaxMeetod/autodeKuvamine.html" beforeDir="false" afterPath="$PROJECT_DIR$/xmlAjaxMeetod/autodeKuvamine.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +22,8 @@
       <list>
         <option value="TypeScript File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -66,6 +69,7 @@
     "JavaScript Debug.calculator.html.executor": "Run",
     "JavaScript Debug.canvas.html.executor": "Run",
     "JavaScript Debug.deligerimine.html.executor": "Run",
+    "JavaScript Debug.ex.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.indexsave.html.executor": "Run",
     "JavaScript Debug.kysimustik.html.executor": "Run",
@@ -103,11 +107,11 @@
       <recent name="C:\Users\LP1\WebstormProjects\weeb\content" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zange\WebstormProjects\KoduleheWT\xmlAjaxMeetod" />
+      <recent name="C:\Users\zange\WebstormProjects\KoduleheWT\xmlAjaxMeetod\pildid" />
       <recent name="C:\Users\LP1\WebstormProjects\weeb\randomPilt\img" />
       <recent name="C:\Users\LP1\WebstormProjects\weeb\randomPilt" />
       <recent name="C:\Users\LP1\WebstormProjects\weeb\vormid" />
-      <recent name="C:\Users\LP1\WebstormProjects\weeb\mapArea" />
-      <recent name="C:\Users\LP1\WebstormProjects\weeb" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -179,7 +183,7 @@
       <workItem from="1741949686942" duration="1358000" />
       <workItem from="1742021593321" duration="61000" />
       <workItem from="1742021660539" duration="9000" />
-      <workItem from="1742458628319" duration="1878000" />
+      <workItem from="1742458628319" duration="8201000" />
     </task>
     <servers />
   </component>
