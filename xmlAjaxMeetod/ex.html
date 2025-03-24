@@ -5,35 +5,7 @@
   <title>Autode Kuvamine AJAX meetodi abil</title>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js" integrity="sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI=" crossorigin="anonymous"></script>
-  <script>
-    $(document).ready(function(){
-      $.ajax({
-        type: "GET",
-        url: "ex.xml",
-        dataType: "xml",
-        success: kuvaXML,
-        error: vigaXML
-      });
-    });
-    function vigaXML(){
-      $("#vastus").append('<p style="color:red;">Probleemid XML failiga!</p>');
-    }
-    function kuvaXML(xml){
-      $(xml).find("inimene").each(function() {
-        $("#vastus").append(
-                '<tr>'+
-                '<td><h2>'+$(this).find("Nimi").text()+'</h2></td>'+
-                '<td><a href="'+$(this).find("link").text()+'" target="_blank">'+
-                '<img src="pildid/'+$(this).find("pilt").text()+'" alt="pilt"></td>'+
-                '</a>'+
-                '<td><a href="'+$(this).find("link").text()+'" target="_blank">'+
-                $(this).find("Nimi").text()+
-                '</a></td>'+
-                '</tr>'
-        );
-      });
-    }
-  </script>
+  <script src='script.js'></script>
   <script>
     $(document).ready(function(){
       $("#vastus").click(function(){
@@ -44,8 +16,33 @@
   <link rel="stylesheet" href="img.css">
 </head>
 <body>
+<header>
+  <!--<img src="content/logo.png" alt="logo">-->
+  <h1>Veebirakenduste aluste Opilane koduleht</h1>
+</header>
+<nav class="menu">
+  <ul>
+    <li>
+      <a href="../index.html">Avaleht</a>
+    </li>
+    <li>
+      <a href="../content/lingid.html">Lingid</a>
+    </li>
+    <li>
+      <a href="#">Portfoolio</a>
+      <ul class="dropdown">
+        <li><a href="https://zhan-gabrielgerke24.thkit.ee/wp/">WP</a></li>
+        <li><a href="https://www.tthk.ee/">TTHK</a></li>
+        <li><a href="https://tahvel.edu.ee/#/">TAHVEL</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="../content/tood.html">Tehtud tood</a>
+    </li>
+  </ul>
+</nav>
 <h1>
-  <h2><strong>Если кликнешь на таблицу она пропадёт</strong></h2>
+  <p><strong>Если кликнешь на таблицу она пропадёт</strong></p>
   Ajax meetod - Asynchronous JavaScript and XML, kliendi pool kaivitav kood
   <a href="https://www.metshein.com/unit/xml-xml-andmete-lugemine-jquery-abil/">Kliki siia</a>
   <div id="vastus"></div>
