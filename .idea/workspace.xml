@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee2764f-064c-4470-a8fa-90788061ad9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xmlAjaxMeetod/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmlAjaxMeetod/ex.html" beforeDir="false" afterPath="$PROJECT_DIR$/xmlAjaxMeetod/ex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmlAjaxMeetod/ex.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmlAjaxMeetod/ex.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmlAjaxMeetod/img.css" beforeDir="false" afterPath="$PROJECT_DIR$/xmlAjaxMeetod/img.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +182,14 @@
       <workItem from="1742474518755" duration="198000" />
       <workItem from="1742479572497" duration="2000" />
       <workItem from="1742665931556" duration="6413000" />
-      <workItem from="1742829450659" duration="902000" />
+      <workItem from="1742829450659" duration="1277000" />
+      <workItem from="1743000916209" duration="3000" />
+      <workItem from="1743060498323" duration="75000" />
+      <workItem from="1743061198900" duration="308000" />
+      <workItem from="1743066594214" duration="858000" />
+      <workItem from="1743071726924" duration="409000" />
+      <workItem from="1743072247699" duration="224000" />
+      <workItem from="1743072988106" duration="481000" />
     </task>
     <servers />
   </component>
