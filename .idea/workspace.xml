@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee2764f-064c-4470-a8fa-90788061ad9c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/tood.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/tood.html" afterDir="false" />
     </list>
@@ -18,8 +19,8 @@
       <list>
         <option value="TypeScript File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -204,6 +205,9 @@
       <workItem from="1746653575627" duration="539000" />
       <workItem from="1747242176655" duration="2551000" />
       <workItem from="1747319321791" duration="1162000" />
+      <workItem from="1747812864268" duration="3157000" />
+      <workItem from="1747818427276" duration="28000" />
+      <workItem from="1748063669416" duration="771000" />
     </task>
     <servers />
   </component>
